@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
 });
 
 
-mongoose.connect('mongodb+srv://Faisal:te5SVc3dgRauVBLn@cluster0.u3sfq9s.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://[yourid].mongodb.net/?retryWrites=true&w=majority')
   .then(() => {
     console.log('Connected!');
     app.listen(3000, () => {

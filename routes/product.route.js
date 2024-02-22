@@ -16,4 +16,4 @@ router.delete('/:id', deleteProduct);
 
 
 
-module.exports= router;
+module.exports = router;
